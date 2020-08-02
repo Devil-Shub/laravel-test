@@ -67,7 +67,7 @@
             </li>
         @endif
 
-        <!-- @if ($logged_in_user->hasAllAccess())
+        @if ($logged_in_user->hasAllAccess())
             <li class="c-sidebar-nav-item">
                 <x-utils.link
                     class="c-sidebar-nav-link"
@@ -75,7 +75,7 @@
                     icon="c-sidebar-nav-icon cil-list"
                     :text="__('Logs')" />
             </li>
-        @endif -->
+        @endif
     </ul>
 
     <button class="c-sidebar-minimizer c-class-toggler" type="button" data-target="_parent" data-class="c-sidebar-minimized"></button>
